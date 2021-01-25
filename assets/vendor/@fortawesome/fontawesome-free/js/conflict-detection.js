@@ -128,7 +128,7 @@
     var noConflictsCount = Object.keys(nodesTested.noConflict).length;
 
     if (noConflictsCount > 0) {
-      console.info("%cNo conflict".concat(noConflictsCount > 1 ? 's' : '', " found with ").concat(noConflictsCount == 1 ? 'this' : 'these', ":"), 'color: orange; font-size: large');
+      console.info("%cNo conflict".concat(noConflictsCount > 1 ? 's' : '', " found with ").concat(noConflictsCount == 1 ? 'this' : 'these', ":"), 'color: blue; font-size: large');
       var _data = {};
 
       for (var _key2 in nodesTested.noConflict) {
@@ -885,7 +885,7 @@
     console.group('Font Awesome Detector');
 
     if (testCount === 0) {
-      console.info('%cAll Good!', 'color: orange; font-size: large');
+      console.info('%cAll Good!', 'color: blue; font-size: large');
       console.info('We didn\'t find anything that needs testing for conflicts. Ergo, no conflicts.');
     } else {
       console.info("Testing ".concat(testCount, " possible conflicts."));
